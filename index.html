@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DELTA ELITE ENTERPRISES</title>
+
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Segoe UI;background:#f4fbff;color:#333}
+
+nav{
+background:#0077b6;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:600;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,119,182,.6),rgba(0,180,216,.6)),
+url('https://images.unsplash.com/photo-1564419320408-38e24e038739');
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{font-size:50px;margin:0}
+.hero p{font-size:22px}
+
+.btn{
+background:white;
+color:#0077b6;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+margin-top:20px;
+}
+
+.section{padding:60px 10%;text-align:center}
+
+.features{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{transform:translateY(-8px)}
+
+footer{
+background:#0077b6;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999;
+}
+
+@media(max-width:768px){
+.hero h1{font-size:32px}
+.features{flex-direction:column;align-items:center}
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>DELTA ELITE ENTERPRISES</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>Pure Water for Healthy Life</h1>
+<p>Safe • Trusted • Fresh Packaged Drinking Water</p>
+<button class="btn" onclick="window.open('https://wa.me/919347792911?text=Hello%20I%20want%20to%20order%20water%20bottles','_blank')">
+Order Now
+</button>
+</div>
+
+<div class="section">
+<h2>About Our Brand</h2>
+
+<p>
+At Delta Elite Enterprises, we proudly deliver high-quality packaged drinking water through our trusted brands <strong>NRICH</strong> and <strong>ARWA</strong>.
+</p>
+
+<p>
+NRICH focuses on premium, ultra-purified water designed for health-conscious families, ensuring safety, hygiene, and balanced minerals.
+</p>
+
+<p>
+ARWA is known for its reliability and affordability, making it the preferred choice for daily use, shops, and bulk supply for events.
+</p>
+
+<p>
+With a commitment to quality, safety, and timely delivery, we aim to provide fresh and pure drinking water to every home, business, and event in our service area.
+</p>
+
+</div>
+
+<div class="section">
+<h2>Our Features</h2>
+
+<div class="features">
+<div class="card">ISO Certified Quality</div>
+<div class="card">Safe Hygienic Packaging</div>
+<div class="card">Fast Door Delivery</div>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Delta Elite Enterprises Water Supply</p>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919347792911?text=Hello%20I%20want%20to%20order%20water%20cans" 
+class="whatsapp-float" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+alt="WhatsApp" style="width:60px;height:60px;">
+</a>
+
+</body>
+</html>

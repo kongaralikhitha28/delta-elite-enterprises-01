@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products - NRICH</title>
+
+<style>
+body{margin:0;font-family:Segoe UI;background:#f4fbff}
+nav{background:#0077b6;padding:15px;text-align:center}
+nav a{color:white;margin:15px;text-decoration:none;font-weight:bold}
+
+.container{padding:50px;text-align:center}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:220px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{transform:scale(1.05)}
+
+table{
+margin:40px auto;
+border-collapse:collapse;
+width:60%;
+background:white;
+}
+
+th,td{padding:12px;border:1px solid #ddd}
+
+.btn{
+background:#0077b6;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:25px;
+cursor:pointer;
+}
+
+footer{background:#0077b6;color:white;padding:20px;text-align:center}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<!-- ===== OUR PRODUCTS SECTION ===== -->
+<section class="products-section">
+
+<h1>Our Products</h1>
+
+<div class="products">
+
+<div class="card">
+<img src="images/nrich-logo.webp">
+<h3>NRICH</h3>
+<p>Ultra purified drinking water designed for health-conscious families.</p>
+</div>
+
+<div class="card">
+<img src="images/arwa-logo.jpg">
+<h3>ARWA</h3>
+<p>Reliable hydration partner for events, shops and regular supply.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== WHERE OUR WATER IS USED ===== -->
+<section class="usage-section">
+
+<h2>Where Our Water is Used</h2>
+
+<div class="usage-container">
+
+<div class="usage-card">
+<h3>🏠 Homes</h3>
+<p>Safe drinking water for families everyday</p>
+</div>
+
+<div class="usage-card">
+<h3>🏪 Shops</h3>
+<p>Regular supply for retail and resale</p>
+</div>
+
+<div class="usage-card">
+<h3>🎉 Events</h3>
+<p>Bulk water supply for functions and parties</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>© Delta EliteEnterprises Water Supply
+</footer>
+<!-- WhatsApp Floating Icon -->
+<a href="https://wa.me/919347792911?text=Hello%20I%20want%20to%20order%20water%20cans" 
+class="whatsapp-float" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+alt="WhatsApp" style="width:60px;height:60px;">
+</a>
+
+<style>
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999;
+}
+/* ===== PRODUCTS SECTION ===== */
+.products-section{
+padding:60px 20px;
+text-align:center;
+background:#f4fbff;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:260px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card img{
+width:120px;
+margin-bottom:10px;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+
+/* ===== USAGE SECTION ===== */
+.usage-section{
+padding:60px 20px;
+text-align:center;
+background:#e6f7ff;
+margin-top:40px;
+}
+
+.usage-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.usage-card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.usage-card:hover{
+transform:translateY(-8px);
+}
+
+
+/* ===== HEADINGS ===== */
+h1, h2{
+color:#0077b6;
+}
+
+
+/* ===== MOBILE ===== */
+@media(max-width:768px){
+.products, .usage-container{
+flex-direction:column;
+align-items:center;
+}
+}
+
+</style>
+
+</body>
+</html> 
+<!DOCTYPE html> 

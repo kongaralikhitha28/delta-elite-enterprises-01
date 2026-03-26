@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - DELTA ELITE ENTERPRISES</title>
+
+<style>
+body{margin:0;font-family:Segoe UI;background:#f4fbff}
+
+/* NAV */
+nav{
+background:#0077b6;
+padding:15px;
+text-align:center;
+}
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* WHATSAPP SECTION */
+.wa-section{
+padding:80px 20px;
+background:linear-gradient(135deg,#0077b6,#00b4d8);
+display:flex;
+justify-content:center;
+}
+
+.wa-card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(15px);
+border-radius:20px;
+padding:40px;
+width:350px;
+text-align:center;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.wa-main-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+margin:20px 0;
+}
+
+.wa-main-btn img{width:22px}
+
+.wa-actions{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.wa-btn{
+background:white;
+color:#0077b6;
+padding:12px;
+border-radius:25px;
+text-decoration:none;
+font-weight:500;
+}
+
+.wa-info{
+margin-top:10px;
+font-size:13px;
+}
+
+/* MAP */
+iframe{
+margin-top:20px;
+border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+background:#0077b6;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* FLOAT BUTTON */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999;
+}
+
+@media(max-width:480px){
+.wa-card{width:90%;padding:25px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="wa-section">
+<div class="wa-card">
+
+<h2>Order Instantly on WhatsApp</h2>
+<p>Fast, simple and direct ordering — just one click away</p>
+
+<a href="https://wa.me/919347792911?text=Hello%20I%20want%20to%20order%20water%20bottles" 
+target="_blank" class="wa-main-btn">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+Chat on WhatsApp
+</a>
+
+<div class="wa-actions">
+<a href="https://wa.me/919347792911?text=Hello%20I%20want%20water%20for%20home" target="_blank" class="wa-btn">🏠 Order for Home</a>
+<a href="https://wa.me/919347792911?text=Hello%20I%20need%20bulk%20water" target="_blank" class="wa-btn">🎉 Bulk Supply</a>
+<a href="https://wa.me/919347792911?text=Hello%20I%20need%20shop%20supply" target="_blank" class="wa-btn">🏪 Shop Supply</a>
+</div>
+
+<p class="wa-info">📞 +91 9652965011, +91 9347792911</p>
+<p class="wa-info">🚚 Delivery in Repalle & Nearby Areas</p>
+
+<!-- CORRECT GOOGLE MAP -->
+<iframe 
+src="https://www.google.com/maps?q=Repalle&output=embed"
+width="100%" 
+height="250" 
+style="border:0;" 
+loading="lazy">
+</iframe>
+
+</div>
+</section>
+
+<footer>
+© Delta Elite Enterprises Water Supply
+</footer>
+
+<!-- FLOAT BUTTON -->
+<a href="https://wa.me/919347792911?text=Hello%20I%20want%20to%20order%20water%20cans" 
+class="whatsapp-float" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+style="width:60px;height:60px;">
+</a>
+
+</body>
+</html>
